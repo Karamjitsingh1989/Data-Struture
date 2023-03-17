@@ -17,19 +17,19 @@ func recursive(number:Int) {
 }
 
 
-// Static Variable using Rescursive
-//var x = 0
-//func staticRecursive(n: Int)-> Int {
-//    
-//    if n > 0 {
-//        
-//        x = x + 1
-//        return staticRecursive(n: n - 1) * x
-//    }
-//   return 0
-//}
-//
-//print("\(staticRecursive(n: 5))")
+ //Static Variable using Rescursive
+ var x = 0
+func staticRecursive(n: Int)-> Int {
+
+    if n > 0 {
+
+        x = x + 1
+        return staticRecursive(n: n - 1) * x
+    }
+   return 0
+}
+
+print("The Data:\(staticRecursive(n: 5))")
 
 //main()
 
@@ -104,6 +104,6 @@ func searchRange(_ nums: [Int], _ target: Int) -> [Int] {
 
 
 
-func intToRoman(_ num: Int) -> String {
-        
-}
+//func intToRoman(_ num: Int) -> String {
+//
+//}
